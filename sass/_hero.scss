@@ -1,0 +1,71 @@
+.hero-container {
+  max-width: 100%;
+}
+.hero {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 210px;
+  padding-left: 834px;
+  max-width: 1400px;
+  height: 644px;
+  background-image: url(../images/Star-Wars-Battlefront-II-combat.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  &__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #ffffff;
+    &--lower {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+}
+.hero__links {
+  margin-top: 135px;
+  display: inline-flex;
+}
+.hero__btn {
+  text-align: center;
+  padding-top: 8px;
+  width: 136px;
+  height: 38px;
+  color: #ffffff;
+  background-color: #8dd83d;
+  border-radius: 4px;
+  &--second {
+    width: 148px;
+    margin-left: 13px;
+    background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  }
+}
+.hero__prev--btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 135px;
+  height: 648px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.hero__next--btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 135px;
+  height: 648px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+.hero__indicators {
+  position: absolute;
+  top: 594px;
+  left: 675px;
+}

@@ -1,0 +1,61 @@
+.game-section {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 880px;
+    
+    background-image:url(/images/bcggames.jpg);
+    
+}
+.cardset {
+  margin-top: 43px;
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    width: 320px;
+    height: 420px;
+    background: #ffffff;
+    border: 1px solid #8dd83d;
+    border-radius: 4px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 55px;
+  }
+}
+.cardset__thumb {
+  width: 318px;
+  height: 180px;
+  &--mixer {
+    padding: 54px;
+  }
+  &--livegold {
+    padding: 33px 59px;
+  }
+}
+.cardset__content {
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.cardset__title {
+  margin-bottom: 13px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #435766;
+}
+.cardset__meta {
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #435766;
+}
+.cardset_btn {
+  text-align: center;
+  padding-top: 19px;
+  width: 278px;
+  height: 60px;
+  color: #ffffff;
+  background-color: #8dd83d;
+  border-radius: 4px;
+}
