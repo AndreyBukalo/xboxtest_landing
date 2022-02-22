@@ -1,11 +1,28 @@
-.game-section {
-    margin: 0 auto;
-    max-width: 1400px;
-    height: 880px;
-    
-    background-image:url(/images/bcggames.jpg);
-    
+.highlight {
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 164px;
+  max-width: 1400px;
+  background: radial-gradient(100% 100% at 50% 0%, #686c6f 0%, #373a3c 100%);
 }
+.highlight__logo {
+  margin-left: 50%;
+  margin-bottom: 16px;
+}
+ .highlight__title {
+  margin-left: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #ffffff;
+  &--lower {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
 .cardset {
   margin-top: 43px;
   display: flex;

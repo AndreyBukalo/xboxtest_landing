@@ -1,0 +1,127 @@
+.game-section {
+  position: relative;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 880px;
+    padding: 97px 0 140px;
+    overflow: hidden;
+    background-image:url(/images/bcggames.jpg);
+    &::after {
+    content:'';
+    position: absolute;
+    top: 746px;
+   
+    width: 1400px;
+    height: 880px;
+    background-color:rgba(23, 23, 23, 0.5);
+  }
+    
+}
+.next--btn {
+  position: absolute;
+  top:104px;
+  right: 54px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.games-section__title {
+  margin-left: 287px;
+  margin-bottom: 54px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;}
+.cardset-games {
+  position: absolute;
+  left: 4%;
+  
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    opacity: 0.9;
+    width: 320px;
+    height: 420px;
+    background: #ffffff;
+    border: 1px solid #8dd83d;
+    border-radius: 4px;
+    &--scale {
+      opacity: 1;
+    transform: scale(1.10);
+    margin-left: 16px;
+    
+  }
+  &--steep {
+    margin-left: 16px;
+  }
+  &:not(:last-child) {
+    margin-right: 16px;
+  }
+  
+}}
+.cardset-games__thumb {
+  width: 318px;
+  height: 180px;
+  &--mixer {
+    padding: 54px;
+  }
+  &--livegold {
+    padding: 33px 59px;
+  }
+}
+.cardset-games__content {
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.cardset-games__title {
+  margin-bottom: 13px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #435766;
+  &--mb {
+    margin-bottom: 109px;
+  }
+}
+.cardset-games__meta {
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #435766;
+}
+.cardset-games__btn {
+  opacity: 2;
+  text-align: center;
+  padding-top: 19px;
+  width: 278px;
+  height: 60px;
+  color: #ffffff;
+  background-color: #8dd83d;
+  border-radius: 4px;
+  &--opacity {
+    opacity: 0.9;
+  }
+}
+
+.games-section__btn {
+  position: absolute;
+  top: 687px;
+  left: 597px;
+  text-align: center;
+  padding-top: 11px;
+  width: 207px;
+  height: 53px;
+  color: #ffffff;
+   border-radius: 4px;
+   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  
+  }
+
+  

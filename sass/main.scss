@@ -1,7 +1,9 @@
-@import 'variables';
-@import 'base';
-@import 'container';
-@import 'page_header';
-@import 'hero';
-@import 'highlight';
-@import 'game-section';
+@import './base/variables';
+@import './base/base';
+@import './base/container';
+@import './components/page_header';
+@import './components/hero';
+@import './components/highlight';
+@import './components/game-section';
+@import './components/desing-lab';
+@import './components/page-footer';
