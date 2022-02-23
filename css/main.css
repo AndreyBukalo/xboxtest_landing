@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: 1400px;
   margin: 0 auto;
   color: white;
   letter-spacing: 0.02em;
@@ -40,8 +41,13 @@ a {
 }
 
 .page-header {
+  margin: 0 auto;
   background-color: #373a3c;
   height: 60px;
+  max-width: 1400px;
+  border-bottom: 1px solid  #686c6f;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 
 .page-header--container {
@@ -134,6 +140,7 @@ a {
 
 .hero-container {
   max-width: 100%;
+  max-height: 100%;
 }
 
 .hero {
@@ -143,6 +150,7 @@ a {
   padding-left: 834px;
   max-width: 1400px;
   height: 644px;
+  background-color: #373a3c;
   background-image: url(../images/Star-Wars-Battlefront-II-combat.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -189,7 +197,7 @@ a {
   top: 0;
   left: 0;
   width: 135px;
-  height: 648px;
+  height: 644px;
   border: none;
   outline: none;
   background-color: transparent;
@@ -201,7 +209,7 @@ a {
   top: 0;
   right: 0;
   width: 135px;
-  height: 648px;
+  height: 644px;
   border: none;
   outline: none;
   background-color: transparent;
@@ -313,7 +321,7 @@ a {
   height: 880px;
   padding: 97px 0 140px;
   overflow: hidden;
-  background-image: url(/images/bcggames.jpg);
+  background-image: url(../images/back-games.jpg);
 }
 
 .game-section::after {
@@ -451,7 +459,6 @@ a {
   margin: 0 auto;
   padding: 114px 0 145px;
   max-width: 1400px;
-  height: 480px;
   background-image: url(../images/gamepads.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -498,6 +505,8 @@ a {
 
 .page-footer {
   position: relative;
+  margin: 0 auto;
+  max-width: 1400px;
   height: 395px;
   background-color: #373A3C;
   padding-top: 58px;
@@ -506,8 +515,8 @@ a {
 .page-footer::after {
   content: '';
   position: absolute;
-  top: 317px;
-  left: 410px;
+  top: 80%;
+  left: 7%;
   width: 1200px;
   border: 1px solid white;
   opacity: 0.35;
@@ -517,6 +526,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .title {
@@ -556,12 +568,12 @@ a {
 .lang-side__item {
   position: absolute;
   top: 338px;
-  left: 410px;
+  left: 7%;
 }
 
 .lang-side__symbol {
   position: absolute;
   top: 338px;
-  right: 410px;
+  right: 7%;
 }
 /*# sourceMappingURL=main.css.map */

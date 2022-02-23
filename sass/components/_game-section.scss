@@ -5,12 +5,11 @@
     height: 880px;
     padding: 97px 0 140px;
     overflow: hidden;
-    background-image: url(../images/bcggames.jpg);
+    background-image: url(../images/back-games.jpg);
     &::after {
     content:'';
     position: absolute;
     top: 746px;
-   
     width: 1400px;
     height: 880px;
     background-color:rgba(23, 23, 23, 0.5);
