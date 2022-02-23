@@ -33,6 +33,10 @@ font-size: 14px;
 line-height: 16px;
 
 color: #FFFFFF;
+transition: transform 250ms ease-in;
+    &:hover,:focus {
+      transform: scale(1.1);
+    }
 }
 
 .develop-side {
@@ -48,7 +52,12 @@ color: #FFFFFF;
     }
     &__icon {
         fill: currentColor;
+        transition: transform 250ms ease-in;
+    &:hover,:focus {
+      transform: scale(1.1);
     }
+    }
+    
 }
 .lang-side__item {
     position: absolute;

@@ -42,4 +42,8 @@
     margin-left: 13px;
    background: #8dd83d;
   }
+  transition: transform 250ms ease-in;
+    &:hover,:focus {
+      transform: scale(1.1);
+    }
 }

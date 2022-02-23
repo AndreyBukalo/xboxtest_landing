@@ -80,6 +80,10 @@ a {
   font-size: 16px;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
 }
 
 .main-nav__item--is-active {
@@ -94,15 +98,20 @@ a {
   margin-right: 37px;
 }
 
+.main-nav__item:hover, .main-nav__item :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .main-nav__arrow {
   position: absolute;
-  top: 8px;
+  top: 5px;
   left: 59px;
 }
 
 .main-nav__arrow--console {
   position: absolute;
-  top: 8px;
+  top: 5px;
   left: 69px;
 }
 
@@ -125,11 +134,20 @@ a {
   font-size: 16px;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.user-cabinet:hover, .user-cabinet :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .user-cabinet__icon--arrow {
   position: absolute;
-  top: 8px;
+  top: 5px;
   left: 75px;
 }
 
@@ -183,6 +201,10 @@ a {
   color: #ffffff;
   background-color: #8dd83d;
   border-radius: 4px;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
 }
 
 .hero__btn--second {
@@ -190,6 +212,11 @@ a {
   margin-left: 13px;
   background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.hero__btn:hover, .hero__btn :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .hero__prev--btn {
@@ -202,6 +229,15 @@ a {
   outline: none;
   background-color: transparent;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.hero__prev--btn:hover, .hero__prev--btn :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .hero__next--btn {
@@ -214,6 +250,15 @@ a {
   outline: none;
   background-color: transparent;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.hero__next--btn:hover, .hero__next--btn :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .hero__indicators {
@@ -265,6 +310,15 @@ a {
   background: #ffffff;
   border: 1px solid #8dd83d;
   border-radius: 4px;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.cardset__item:hover, .cardset__item :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .cardset__item:not(:last-child) {
@@ -354,8 +408,6 @@ a {
 }
 
 .cardset-games {
-  position: absolute;
-  left: 4%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,21 +423,20 @@ a {
   background: #ffffff;
   border: 1px solid #8dd83d;
   border-radius: 4px;
+  -webkit-transition: opacity 250ms, -webkit-transform 250ms ease-in;
+  transition: opacity 250ms, -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in, opacity 250ms;
+  transition: transform 250ms ease-in, opacity 250ms, -webkit-transform 250ms ease-in;
 }
 
-.cardset-games__item--scale {
+.cardset-games__item:hover, .cardset-games__item :focus {
   opacity: 1;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  margin-left: 16px;
-}
-
-.cardset-games__item--steep {
-  margin-left: 16px;
 }
 
 .cardset-games__item:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 20px;
 }
 
 .cardset-games__thumb {
@@ -452,6 +503,15 @@ a {
   border-radius: 4px;
   background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.games-section__btn:hover, .games-section__btn :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .desing-lab {
@@ -495,12 +555,21 @@ a {
   background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
   background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
 }
 
 .desing-lab__btn--second {
   width: 278px;
   margin-left: 13px;
   background: #8dd83d;
+}
+
+.desing-lab__btn:hover, .desing-lab__btn :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .page-footer {
@@ -545,6 +614,15 @@ a {
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.link:hover, .link :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .develop-side {
@@ -563,6 +641,15 @@ a {
 
 .social-side__icon {
   fill: currentColor;
+  -webkit-transition: -webkit-transform 250ms ease-in;
+  transition: -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.social-side__icon:hover, .social-side__icon :focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .lang-side__item {

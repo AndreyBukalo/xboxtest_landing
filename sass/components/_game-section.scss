@@ -37,8 +37,7 @@
 
   color: #ffffff;}
 .cardset-games {
-  position: absolute;
-  left: 4%;
+ 
   
   display: flex;
   justify-content: center;
@@ -50,17 +49,16 @@
     background: #ffffff;
     border: 1px solid #8dd83d;
     border-radius: 4px;
-    &--scale {
+    transition: transform 250ms ease-in, opacity 250ms;
+    &:hover,:focus{
       opacity: 1;
     transform: scale(1.10);
-    margin-left: 16px;
-    
-  }
-  &--steep {
-    margin-left: 16px;
+   
+   
+  
   }
   &:not(:last-child) {
-    margin-right: 16px;
+    margin-right: 20px;
   }
   
 }}
@@ -120,7 +118,10 @@
   color: #ffffff;
    border-radius: 4px;
    background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
-  
+  transition: transform 250ms ease-in;
+    &:hover,:focus {
+      transform: scale(1.1);
+    }
   }
 
   
